@@ -55,7 +55,6 @@ TARGET_DEVICES += yuncore_fap650
 define Device/arista_ap-cp01-c3
        $(call Device/FitImage)
        $(call Device/UbiFit)
-       $(call Device/FitImageLzma)
        DEVICE_VENDOR := Arista
        DEVICE_MODEL := ap-cp01-c3
        BLOCKSIZE := 128k
